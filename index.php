@@ -14,17 +14,7 @@
 <body>
 	<div id="wrapper">
 
-		<header>
-			<h1>Q Application</h1>
-			<nav id="top_nav">
-				<ul>
-					<li><a href="#">Search</a></li>
-					<li><a href="#">Add question</a></li>
-					<li><a href="#">Create Episode</a></li>
-					<li><a href="#">List Episodes</a></li>
-				</ul>
-			</nav>
-		</header>
+		<?php include "include/header.php" ?>
 
 		<section>
 			<canvas id="a"></canvas>
