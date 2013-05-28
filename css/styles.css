@@ -22,13 +22,22 @@ header {
 	padding-left: 10px;
 }
 
+section {
+	float: left;
+	width: 100%
+}
+
 footer {
 	background-color: #eee;
+	float: left;
+	width: 100%;
 }
 
 footer nav {
 	display: block;
 }
+
+/*********** INPUT STYLES ************/
 
 input {
 	margin-bottom: 10px
@@ -57,6 +66,18 @@ select {
 
 .block {
 	display: block;
+}
+
+#left {
+	width: 60%;
+	float: left;
+
+}
+
+#right {
+	width: 40%;
+	float: left;
+
 }
 
 /* Index page */
