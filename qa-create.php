@@ -41,8 +41,40 @@
 			</div>
 
 			<div id="right">
-				<label for="q-id">Question ID</label>
+				<label for="q-id" class="right">Question ID</label>
 				<input type="text" name="q-id" class="block" id="q-id" placeholder="Question ID">
+
+				<label for="writer" class="right">Writer</label>
+				<select name="witer" id="writer">
+					<option value="1">Select..</option>}
+					<option value="2">Drew</option>
+					<option value="3">Lucas</option>
+					<option value="4">Michael</option>
+				</select><br>
+
+				<label for="writer" class="right">Difficulty</label>
+				<select name="witer" id="writer">
+					<option value="1">Select..</option>}
+					<option value="2">Easy</option>
+					<option value="3">Medium</option>
+					<option value="4">Hard</option>
+				</select><br>
+
+				<label for="writer" class="right">Category</label>
+				<select name="witer" id="writer">
+					<option value="1">Select..</option>}
+					<option value="2">Sport</option>
+					<option value="3">Music</option>
+					<option value="4">Science</option>
+					<option value="5">TV</option>
+					<option value="6">Movies</option>
+				</select>
+
+				<div id="q-admin">
+					<label for="verified" class="right">Verified</label>
+					<input type="checkbox" name="verified" id="verified">
+				</div>
+
 			</div>
 		</section>
 

@@ -56,6 +56,14 @@ select {
 	padding-right: 10px;  
 }
 
+.right {
+	clear:left;
+	float:left;
+	width:110px; 
+	text-align:left;   
+	padding-right: 10px;  
+}
+
 .clear {
 	margin-top: 20px;
 }
